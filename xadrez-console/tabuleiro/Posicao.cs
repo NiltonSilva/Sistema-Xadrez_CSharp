@@ -4,18 +4,18 @@ namespace tabuleiro
 {
     public class Posicao
     {
-        public int linhas { get; set; }
+        public int linha { get; set; }
         public int coluna { get; set; }
 
         public Posicao(int linha, int coluna)
         {
-            this.linhas = linha;
+            this.linha = linha;
             this.coluna = coluna;
         }
 
         public override string ToString()
         {
-            return linhas
+            return linha
                 + ", "
                 + coluna;
         }
